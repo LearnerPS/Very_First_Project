@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sesac.config.mappers.Rtour">
+
+  <insert id="insert">
+  insert into member
+  (mem_id, mem_name, mem_passwd, mem_age, mem_gen, mem_tel, mem_email)
+  values
+  ( #{mem_id}, #{mem_name}, #{mem_passwd}, #{mem_age}, #{mem_gen}, #{mem_tel}, #{mem_email} )
+  </insert>
+  
+  <select id="selectAll" resultType="org.sesac.Rtour.vo.MemberVo">
+  select * FROM member  
+  ORDER BY NO desc
+  </select>
+
+</mapper>

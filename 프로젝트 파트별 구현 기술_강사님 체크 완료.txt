@@ -1,0 +1,17 @@
+1. 메인메뉴 - HTML/CSS/Javascript
+2. 관광지정보 페이지 - HTML/CSS/Javascript
+- 사진과 동영상 등 기타 자료는 <a>태그, <img>태그,
+<iframe>태그 등을 활용해 인터넷에서 링크를 걸 예정
+3. 회원관리기능 - CRUD기능→Java코드(JSP)
+4. 데이터저장과 수정→MySQL
+5. 웹페이지(HTML)와 MySQL 간의 데이터 연결 - Mybatis - xml - Mapping
+6. 웹페이지 간의 이동 - <a>태그 하이퍼링크
+7. 로그인, 로그아웃 기능
+- 회원테이블 검색 - ID와Password가 일치시 HttpSession에 정해둔 키에 MemberVo 저장
+8. 버킷리스트 등록과 관리 - 원리는 todo와 동일, 할일 대신 하고싶은일을 저장하면 끝
+9. 좋아요 기능과 좋아요 갯수 표시 - 게시물에 int타입 좋아요 칼럼 추가 + 좋아요 누를시 증가
+- 단, 페이지 변화 없이 구현해야 함
+- JQuery - Ajax 함수로 좋아요 증가주소를 호출하는 것으로 구현
+- 연결방법은 여기까지 다 했을 때 지도해주신다고 함
+
+※ 프로젝트는 Spring Legacy Project로 제작
